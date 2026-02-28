@@ -2,13 +2,13 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>E:\Tools\EMBRA\EMBER_05\build\x64\Release\ZERO_CHECK</FullPath>
+      <FullPath>E:\Tools\EMBER\build\x64\Release\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
       <FullPath>C:\Users\ghoar\Documents\houdini21.0\dso\SOP_EmberBoolean.dll</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>E:\Tools\EMBRA\EMBER_05\build\x64\Release\ALL_BUILD</FullPath>
+      <FullPath>E:\Tools\EMBER\build\x64\Release\ALL_BUILD</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

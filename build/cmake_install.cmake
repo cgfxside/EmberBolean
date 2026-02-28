@@ -1,8 +1,8 @@
-# Install script for directory: E:/Tools/EMBRA/EMBER_05
+# Install script for directory: E:/Tools/EMBER
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "E:/Tools/EMBRA/EMBER_05/install")
+  set(CMAKE_INSTALL_PREFIX "E:/Tools/EMBER/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -122,20 +122,20 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    include("E:/Tools/EMBRA/EMBER_05/build/CMakeFiles/SOP_EmberBoolean.dir/install-cxx-module-bmi-Debug.cmake" OPTIONAL)
+    include("E:/Tools/EMBER/build/CMakeFiles/SOP_EmberBoolean.dir/install-cxx-module-bmi-Debug.cmake" OPTIONAL)
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    include("E:/Tools/EMBRA/EMBER_05/build/CMakeFiles/SOP_EmberBoolean.dir/install-cxx-module-bmi-Release.cmake" OPTIONAL)
+    include("E:/Tools/EMBER/build/CMakeFiles/SOP_EmberBoolean.dir/install-cxx-module-bmi-Release.cmake" OPTIONAL)
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
-    include("E:/Tools/EMBRA/EMBER_05/build/CMakeFiles/SOP_EmberBoolean.dir/install-cxx-module-bmi-MinSizeRel.cmake" OPTIONAL)
+    include("E:/Tools/EMBER/build/CMakeFiles/SOP_EmberBoolean.dir/install-cxx-module-bmi-MinSizeRel.cmake" OPTIONAL)
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    include("E:/Tools/EMBRA/EMBER_05/build/CMakeFiles/SOP_EmberBoolean.dir/install-cxx-module-bmi-RelWithDebInfo.cmake" OPTIONAL)
+    include("E:/Tools/EMBER/build/CMakeFiles/SOP_EmberBoolean.dir/install-cxx-module-bmi-RelWithDebInfo.cmake" OPTIONAL)
   endif()
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "E:/Tools/EMBRA/EMBER_05/build/install_local_manifest.txt"
+  file(WRITE "E:/Tools/EMBER/build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -151,6 +151,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "E:/Tools/EMBRA/EMBER_05/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "E:/Tools/EMBER/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

@@ -57,7 +57,24 @@ set(EMBER_CORE_SOURCES
 set(EMBER_BACKEND_SOURCES
     backend/IBooleanBackend.h
     backend/BackendFactory.cpp
-    backend/CherchiBackend.cpp
+    # BUG 4 FIX (ODR VIOLATION): CherchiBackend.cpp is REMOVED from the build.
+    #
+    # PROBLEM: CherchiBackend.cpp defines a complete 'class CherchiBackend' at
+    # line 1133 inside the ember namespace (not in an anonymous namespace).
+    # CherchiBackend_stub.cpp implements the methods of the same class declared
+    # in CherchiBackend.h. Compiling both produces TWO definitions of
+    # ember::CherchiBackend::execute() — a hard ODR violation. The linker picks
+    # one at random → undefined behavior → crash or incorrect results.
+    #
+    # SOLUTION: Only CherchiBackend_stub.cpp is compiled. It provides a safe
+    # stub that returns success=true with empty geometry until the full
+    # implementation is complete.
+    #
+    # When the full CDT implementation in CherchiBackend.cpp is ready, it must
+    # be refactored to implement the methods declared in CherchiBackend.h
+    # (not define a new class), and then replace CherchiBackend_stub.cpp.
+    #
+    # backend/CherchiBackend.cpp   ← DO NOT add back without refactoring
     backend/CherchiBackend_stub.cpp
 )
 

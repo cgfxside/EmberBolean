@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"E:/Tools/EMBRA/EMBER_05/build/cmake_install.cmake"
+		"E:/Tools/EMBER/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }
