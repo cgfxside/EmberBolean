@@ -1,0 +1,10 @@
+^E:\TOOLS\EMBRA\EMBER_05\CMAKELISTS.TXT
+setlocal
+"E:\Program Files\Microsoft Visual Studio\18\Insiders\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SE:/Tools/EMBRA/EMBER_05 -BE:/Tools/EMBRA/EMBER_05/build --check-stamp-file E:/Tools/EMBRA/EMBER_05/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

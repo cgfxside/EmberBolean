@@ -1,0 +1,2434 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:12 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:12 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/"
+    found: "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\VC\\VCPackages"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64\\"
+        - "C:\\Program Files (x86)\\HTML Help Workshop"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Team Tools\\DiagnosticsHub\\Collector"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "E:\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "E:\\Windows Kits\\10\\bin\\\\x64"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\Tools\\"
+        - "C:\\Python311\\Scripts\\"
+        - "C:\\Python311\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Tailscale\\"
+        - "E:\\Program Files (x86)\\IncrediBuild"
+        - "E:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\ghoar\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\ffmpeg\\bin"
+        - "C:\\Users\\ghoar\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\Llvm\\x64\\bin"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "../install"
+      ENV{INCLUDE}:
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35717\\include"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35717\\ATLMFC\\include"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Auxiliary\\VS\\include"
+        - "E:\\Windows Kits\\10\\include\\10.0.26100.0\\ucrt"
+        - "E:\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\um"
+        - "E:\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\shared"
+        - "E:\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\winrt"
+        - "E:\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\cppwinrt"
+        - "C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\include\\um"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:12 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 18.4.0+6e61e96ac for .NET Framework
+      Build started 2026-02-28 5:51:24 AM.
+      
+      Project "E:\\Tools\\EMBRA\\EMBER_05\\build\\CMakeFiles\\4.2.3-msvc3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> E:\\Tools\\EMBRA\\EMBER_05\\build\\CMakeFiles\\4.2.3-msvc3\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "E:\\Tools\\EMBRA\\EMBER_05\\build\\CMakeFiles\\4.2.3-msvc3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.79
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        E:/Tools/EMBRA/EMBER_05/build/CMakeFiles/4.2.3-msvc3/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:12 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/vcpackages/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/"
+      - "C:/Program Files (x86)/HTML Help Workshop/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Team Tools/DiagnosticsHub/Collector/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "E:/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "E:/Windows Kits/10/bin/x64/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/Tools/"
+      - "C:/Python311/Scripts/"
+      - "C:/Python311/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Tailscale/"
+      - "E:/Program Files (x86)/IncrediBuild/"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/ghoar/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/ffmpeg/bin/"
+      - "C:/Users/ghoar/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/Llvm/x64/bin/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/vcpkg/"
+    searched_directories:
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.com"
+    found: "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\VC\\VCPackages"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64\\"
+        - "C:\\Program Files (x86)\\HTML Help Workshop"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Team Tools\\DiagnosticsHub\\Collector"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "E:\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "E:\\Windows Kits\\10\\bin\\\\x64"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\Tools\\"
+        - "C:\\Python311\\Scripts\\"
+        - "C:\\Python311\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Tailscale\\"
+        - "E:\\Program Files (x86)\\IncrediBuild"
+        - "E:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\ghoar\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\ffmpeg\\bin"
+        - "C:\\Users\\ghoar\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\Llvm\\x64\\bin"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "../install"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:12 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/vcpackages/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/"
+      - "C:/Program Files (x86)/HTML Help Workshop/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Team Tools/DiagnosticsHub/Collector/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "E:/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "E:/Windows Kits/10/bin/x64/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/Tools/"
+      - "C:/Python311/Scripts/"
+      - "C:/Python311/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Tailscale/"
+      - "E:/Program Files (x86)/IncrediBuild/"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/ghoar/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/ffmpeg/bin/"
+      - "C:/Users/ghoar/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/Llvm/x64/bin/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/vcpkg/"
+    searched_directories:
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/lld-link.com"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/lld-link.exe"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/lld-link"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.com"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.exe"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/vcpackages/lld-link.com"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/vcpackages/lld-link.exe"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/vcpackages/lld-link"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link.com"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link.exe"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link.com"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link.exe"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/Roslyn/lld-link.com"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/Roslyn/lld-link.exe"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/Roslyn/lld-link"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/lld-link"
+      - "C:/Program Files (x86)/HTML Help Workshop/lld-link.com"
+      - "C:/Program Files (x86)/HTML Help Workshop/lld-link.exe"
+      - "C:/Program Files (x86)/HTML Help Workshop/lld-link"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Team Tools/DiagnosticsHub/Collector/lld-link.com"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Team Tools/DiagnosticsHub/Collector/lld-link.exe"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Team Tools/DiagnosticsHub/Collector/lld-link"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link.com"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link.exe"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link"
+      - "E:/Windows Kits/10/bin/10.0.26100.0/x64/lld-link.com"
+      - "E:/Windows Kits/10/bin/10.0.26100.0/x64/lld-link.exe"
+      - "E:/Windows Kits/10/bin/10.0.26100.0/x64/lld-link"
+      - "E:/Windows Kits/10/bin/x64/lld-link.com"
+      - "E:/Windows Kits/10/bin/x64/lld-link.exe"
+      - "E:/Windows Kits/10/bin/x64/lld-link"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/lld-link.com"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/lld-link.exe"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/lld-link"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/lld-link.com"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/lld-link.exe"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/lld-link"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/lld-link.com"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/lld-link.exe"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/lld-link"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/Tools/lld-link.com"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/Tools/lld-link.exe"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/Tools/lld-link"
+      - "C:/Python311/Scripts/lld-link.com"
+      - "C:/Python311/Scripts/lld-link.exe"
+      - "C:/Python311/Scripts/lld-link"
+      - "C:/Python311/lld-link.com"
+      - "C:/Python311/lld-link.exe"
+      - "C:/Python311/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/ProgramData/chocolatey/bin/lld-link.com"
+      - "C:/ProgramData/chocolatey/bin/lld-link.exe"
+      - "C:/ProgramData/chocolatey/bin/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link"
+      - "C:/Program Files/PowerShell/7/lld-link.com"
+      - "C:/Program Files/PowerShell/7/lld-link.exe"
+      - "C:/Program Files/PowerShell/7/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link"
+      - "C:/Program Files/Tailscale/lld-link.com"
+      - "C:/Program Files/Tailscale/lld-link.exe"
+      - "C:/Program Files/Tailscale/lld-link"
+      - "E:/Program Files (x86)/IncrediBuild/lld-link.com"
+      - "E:/Program Files (x86)/IncrediBuild/lld-link.exe"
+      - "E:/Program Files (x86)/IncrediBuild/lld-link"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Users/ghoar/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/ghoar/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/ghoar/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/ffmpeg/bin/lld-link.com"
+      - "C:/ffmpeg/bin/lld-link.exe"
+      - "C:/ffmpeg/bin/lld-link"
+      - "C:/Users/ghoar/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/ghoar/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/ghoar/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/Llvm/x64/bin/lld-link.com"
+    found: "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/Llvm/x64/bin/lld-link.exe"
+    search_context:
+      ENV{PATH}:
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\VC\\VCPackages"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64\\"
+        - "C:\\Program Files (x86)\\HTML Help Workshop"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Team Tools\\DiagnosticsHub\\Collector"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "E:\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "E:\\Windows Kits\\10\\bin\\\\x64"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\Tools\\"
+        - "C:\\Python311\\Scripts\\"
+        - "C:\\Python311\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Tailscale\\"
+        - "E:\\Program Files (x86)\\IncrediBuild"
+        - "E:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\ghoar\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\ffmpeg\\bin"
+        - "C:\\Users\\ghoar\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\Llvm\\x64\\bin"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "../install"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:12 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/vcpackages/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/"
+      - "C:/Program Files (x86)/HTML Help Workshop/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Team Tools/DiagnosticsHub/Collector/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "E:/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "E:/Windows Kits/10/bin/x64/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/Tools/"
+      - "C:/Python311/Scripts/"
+      - "C:/Python311/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Tailscale/"
+      - "E:/Program Files (x86)/IncrediBuild/"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/ghoar/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/ffmpeg/bin/"
+      - "C:/Users/ghoar/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/Llvm/x64/bin/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/vcpkg/"
+    searched_directories:
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.com"
+    found: "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\VC\\VCPackages"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64\\"
+        - "C:\\Program Files (x86)\\HTML Help Workshop"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Team Tools\\DiagnosticsHub\\Collector"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "E:\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "E:\\Windows Kits\\10\\bin\\\\x64"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\Tools\\"
+        - "C:\\Python311\\Scripts\\"
+        - "C:\\Python311\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Tailscale\\"
+        - "E:\\Program Files (x86)\\IncrediBuild"
+        - "E:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\ghoar\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\ffmpeg\\bin"
+        - "C:\\Users\\ghoar\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\Llvm\\x64\\bin"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "../install"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:12 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/vcpackages/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/"
+      - "C:/Program Files (x86)/HTML Help Workshop/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Team Tools/DiagnosticsHub/Collector/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "E:/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "E:/Windows Kits/10/bin/x64/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/Tools/"
+      - "C:/Python311/Scripts/"
+      - "C:/Python311/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Tailscale/"
+      - "E:/Program Files (x86)/IncrediBuild/"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/ghoar/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/ffmpeg/bin/"
+      - "C:/Users/ghoar/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/Llvm/x64/bin/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/vcpkg/"
+    searched_directories:
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/mt.com"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/mt.exe"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/mt"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt.com"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt.exe"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/vcpackages/mt.com"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/vcpackages/mt.exe"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/vcpackages/mt"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TestWindow/mt.com"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TestWindow/mt.exe"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TestWindow/mt"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/mt.com"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/mt.exe"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/mt"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/Roslyn/mt.com"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/Roslyn/mt.exe"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/Roslyn/mt"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/mt.com"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/mt.exe"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/mt"
+      - "C:/Program Files (x86)/HTML Help Workshop/mt.com"
+      - "C:/Program Files (x86)/HTML Help Workshop/mt.exe"
+      - "C:/Program Files (x86)/HTML Help Workshop/mt"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Team Tools/DiagnosticsHub/Collector/mt.com"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Team Tools/DiagnosticsHub/Collector/mt.exe"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Team Tools/DiagnosticsHub/Collector/mt"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/mt.com"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/mt.exe"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/mt"
+      - "E:/Windows Kits/10/bin/10.0.26100.0/x64/mt.com"
+    found: "E:/Windows Kits/10/bin/10.0.26100.0/x64/mt.exe"
+    search_context:
+      ENV{PATH}:
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\VC\\VCPackages"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64\\"
+        - "C:\\Program Files (x86)\\HTML Help Workshop"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Team Tools\\DiagnosticsHub\\Collector"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "E:\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "E:\\Windows Kits\\10\\bin\\\\x64"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\Tools\\"
+        - "C:\\Python311\\Scripts\\"
+        - "C:\\Python311\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Tailscale\\"
+        - "E:\\Program Files (x86)\\IncrediBuild"
+        - "E:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\ghoar\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\ffmpeg\\bin"
+        - "C:\\Users\\ghoar\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\Llvm\\x64\\bin"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "../install"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:12 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/vcpackages/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/"
+      - "C:/Program Files (x86)/HTML Help Workshop/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Team Tools/DiagnosticsHub/Collector/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "E:/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "E:/Windows Kits/10/bin/x64/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/Tools/"
+      - "C:/Python311/Scripts/"
+      - "C:/Python311/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Tailscale/"
+      - "E:/Program Files (x86)/IncrediBuild/"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/ghoar/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/ffmpeg/bin/"
+      - "C:/Users/ghoar/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/Llvm/x64/bin/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/vcpkg/"
+    searched_directories:
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/lib.com"
+    found: "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\VC\\VCPackages"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64\\"
+        - "C:\\Program Files (x86)\\HTML Help Workshop"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Team Tools\\DiagnosticsHub\\Collector"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "E:\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "E:\\Windows Kits\\10\\bin\\\\x64"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\Tools\\"
+        - "C:\\Python311\\Scripts\\"
+        - "C:\\Python311\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Tailscale\\"
+        - "E:\\Program Files (x86)\\IncrediBuild"
+        - "E:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\ghoar\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\ffmpeg\\bin"
+        - "C:\\Users\\ghoar\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\Llvm\\x64\\bin"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "../install"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC.cmake:584 (enable_language)"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC.cmake:557 (__windows_compiler_msvc_enable_rc)"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC-CXX.cmake:6 (__windows_compiler_msvc)"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeCXXInformation.cmake:48 (include)"
+      - "CMakeLists.txt:12 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/vcpackages/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/"
+      - "C:/Program Files (x86)/HTML Help Workshop/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Team Tools/DiagnosticsHub/Collector/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "E:/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "E:/Windows Kits/10/bin/x64/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/Tools/"
+      - "C:/Python311/Scripts/"
+      - "C:/Python311/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Tailscale/"
+      - "E:/Program Files (x86)/IncrediBuild/"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/ghoar/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/ffmpeg/bin/"
+      - "C:/Users/ghoar/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/Llvm/x64/bin/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/vcpkg/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
+      - "E:/Tools/EMBRA/EMBER_05/install/bin/"
+      - "E:/Tools/EMBRA/EMBER_05/install/sbin/"
+      - "E:/Tools/EMBRA/EMBER_05/install/"
+    searched_directories:
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/rc.com"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/rc.exe"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/rc"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/vcpackages/rc.com"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/vcpackages/rc.exe"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/vcpackages/rc"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TestWindow/rc.com"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TestWindow/rc.exe"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TestWindow/rc"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/rc.com"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/rc.exe"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/rc"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/Roslyn/rc.com"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/Roslyn/rc.exe"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/Roslyn/rc"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/rc.com"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/rc.exe"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/rc"
+      - "C:/Program Files (x86)/HTML Help Workshop/rc.com"
+      - "C:/Program Files (x86)/HTML Help Workshop/rc.exe"
+      - "C:/Program Files (x86)/HTML Help Workshop/rc"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Team Tools/DiagnosticsHub/Collector/rc.com"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Team Tools/DiagnosticsHub/Collector/rc.exe"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Team Tools/DiagnosticsHub/Collector/rc"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/rc.com"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/rc.exe"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/rc"
+      - "E:/Windows Kits/10/bin/10.0.26100.0/x64/rc.com"
+    found: "E:/Windows Kits/10/bin/10.0.26100.0/x64/rc.exe"
+    search_context:
+      ENV{PATH}:
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\VC\\VCPackages"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64\\"
+        - "C:\\Program Files (x86)\\HTML Help Workshop"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Team Tools\\DiagnosticsHub\\Collector"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "E:\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "E:\\Windows Kits\\10\\bin\\\\x64"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\Tools\\"
+        - "C:\\Python311\\Scripts\\"
+        - "C:\\Python311\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Tailscale\\"
+        - "E:\\Program Files (x86)\\IncrediBuild"
+        - "E:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\ghoar\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\ffmpeg\\bin"
+        - "C:\\Users\\ghoar\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\Llvm\\x64\\bin"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "E:/Tools/EMBRA/EMBER_05/install"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
+        - "E:/Tools/EMBRA/EMBER_05/install"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:12 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "E:/Tools/EMBRA/EMBER_05/build/CMakeFiles/CMakeScratch/TryCompile-r9stde"
+      binary: "E:/Tools/EMBRA/EMBER_05/build/CMakeFiles/CMakeScratch/TryCompile-r9stde"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Tools/EMBRA/EMBER_05/build/CMakeFiles/CMakeScratch/TryCompile-r9stde'
+        
+        Run Build Command(s): "E:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_bfb06.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 18.4.0+6e61e96ac for .NET Framework
+        Build started 2026-02-28 5:51:25 AM.
+        
+        Project "E:\\Tools\\EMBRA\\EMBER_05\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r9stde\\cmTC_bfb06.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "E:\\Tools\\EMBRA\\EMBER_05\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r9stde\\Debug\\".
+          Creating directory "cmTC_bfb06.dir\\Debug\\cmTC_bfb06.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_bfb06.dir\\Debug\\cmTC_bfb06.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_bfb06.dir\\Debug\\cmTC_bfb06.tlog\\unsuccessfulbuild".
+        ClCompile:
+          E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_bfb06.dir\\Debug\\\\" /Fd"cmTC_bfb06.dir\\Debug\\vc142.pdb" /external:W1 /TP /errorReport:queue "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
+          CMakeCXXCompilerABI.cpp
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_bfb06.dir\\Debug\\\\" /Fd"cmTC_bfb06.dir\\Debug\\vc142.pdb" /external:W1 /TP /errorReport:queue "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"E:\\Tools\\EMBRA\\EMBER_05\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r9stde\\Debug\\cmTC_bfb06.exe" /INCREMENTAL /ILK:"cmTC_bfb06.dir\\Debug\\cmTC_bfb06.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Tools/EMBRA/EMBER_05/build/CMakeFiles/CMakeScratch/TryCompile-r9stde/Debug/cmTC_bfb06.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"E:/Tools/EMBRA/EMBER_05/build/CMakeFiles/CMakeScratch/TryCompile-r9stde/Debug/cmTC_bfb06.lib" /MACHINE:X64  /machine:x64 cmTC_bfb06.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_bfb06.vcxproj -> E:\\Tools\\EMBRA\\EMBER_05\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r9stde\\Debug\\cmTC_bfb06.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_bfb06.dir\\Debug\\cmTC_bfb06.tlog\\unsuccessfulbuild".
+          Touching "cmTC_bfb06.dir\\Debug\\cmTC_bfb06.tlog\\cmTC_bfb06.lastbuildstate".
+        Done Building Project "E:\\Tools\\EMBRA\\EMBER_05\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r9stde\\cmTC_bfb06.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.54
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:12 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:12 (project)"
+    message: |
+      Running the CXX compiler's linker: "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.29.30159.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:38 (find_package)"
+    name: "Eigen3"
+    configs:
+      -
+        filename: "Eigen3Config.cmake"
+        kind: "cmake"
+      -
+        filename: "eigen3-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Eigen3"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "E:/Tools/EMBRA/EMBER_05/build/CMakeFiles/pkgRedirects/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Tools/EMBRA/EMBER_05/build/CMakeFiles/pkgRedirects/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/vcpackages/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/vcpackages/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TestWindow/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TestWindow/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/Roslyn/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/Roslyn/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/HTML Help Workshop/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/HTML Help Workshop/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/Team Tools/DiagnosticsHub/Collector/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/Team Tools/DiagnosticsHub/Collector/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Windows Kits/10/bin/10.0.26100.0/x64/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Windows Kits/10/bin/10.0.26100.0/x64/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Windows Kits/10/bin/x64/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Windows Kits/10/bin/x64/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/Tools/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/Tools/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Python311/Scripts/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Python311/Scripts/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Python311/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Python311/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/chocolatey/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/chocolatey/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/PowerShell/7/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/PowerShell/7/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Docker/Docker/resources/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Docker/Docker/resources/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Tailscale/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Tailscale/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files (x86)/IncrediBuild/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files (x86)/IncrediBuild/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Windows Kits/10/Windows Performance Toolkit/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Windows Kits/10/Windows Performance Toolkit/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ghoar/AppData/Local/Microsoft/WindowsApps/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ghoar/AppData/Local/Microsoft/WindowsApps/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/ffmpeg/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/ffmpeg/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ghoar/AppData/Local/Programs/Microsoft VS Code/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ghoar/AppData/Local/Programs/Microsoft VS Code/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/Llvm/x64/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/Llvm/x64/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/vcpkg/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/vcpkg/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\VC\\VCPackages"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64\\"
+        - "C:\\Program Files (x86)\\HTML Help Workshop"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Team Tools\\DiagnosticsHub\\Collector"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "E:\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "E:\\Windows Kits\\10\\bin\\\\x64"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\Tools\\"
+        - "C:\\Python311\\Scripts\\"
+        - "C:\\Python311\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Tailscale\\"
+        - "E:\\Program Files (x86)\\IncrediBuild"
+        - "E:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\ghoar\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\ffmpeg\\bin"
+        - "C:\\Users\\ghoar\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\Llvm\\x64\\bin"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "E:/Tools/EMBRA/EMBER_05/install"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
+        - "E:/Tools/EMBRA/EMBER_05/install"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:39 (find_package)"
+    name: "TBB"
+    configs:
+      -
+        filename: "TBBConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "tbb-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "TBB"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "E:/Tools/EMBRA/EMBER_05/build/CMakeFiles/pkgRedirects/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Tools/EMBRA/EMBER_05/build/CMakeFiles/pkgRedirects/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/vcpackages/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/vcpackages/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TestWindow/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TestWindow/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/Roslyn/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/Roslyn/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/HTML Help Workshop/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/HTML Help Workshop/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/Team Tools/DiagnosticsHub/Collector/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/Team Tools/DiagnosticsHub/Collector/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Windows Kits/10/bin/10.0.26100.0/x64/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Windows Kits/10/bin/10.0.26100.0/x64/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Windows Kits/10/bin/x64/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Windows Kits/10/bin/x64/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/Tools/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/Tools/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Python311/Scripts/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Python311/Scripts/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Python311/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Python311/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/chocolatey/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/chocolatey/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/PowerShell/7/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/PowerShell/7/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Docker/Docker/resources/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Docker/Docker/resources/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Tailscale/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Tailscale/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files (x86)/IncrediBuild/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files (x86)/IncrediBuild/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Windows Kits/10/Windows Performance Toolkit/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Windows Kits/10/Windows Performance Toolkit/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ghoar/AppData/Local/Microsoft/WindowsApps/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ghoar/AppData/Local/Microsoft/WindowsApps/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/ffmpeg/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/ffmpeg/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ghoar/AppData/Local/Programs/Microsoft VS Code/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ghoar/AppData/Local/Programs/Microsoft VS Code/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/Llvm/x64/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/Llvm/x64/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/vcpkg/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/vcpkg/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\VC\\VCPackages"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64\\"
+        - "C:\\Program Files (x86)\\HTML Help Workshop"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Team Tools\\DiagnosticsHub\\Collector"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "E:\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "E:\\Windows Kits\\10\\bin\\\\x64"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\Tools\\"
+        - "C:\\Python311\\Scripts\\"
+        - "C:\\Python311\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Tailscale\\"
+        - "E:\\Program Files (x86)\\IncrediBuild"
+        - "E:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\ghoar\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\ffmpeg\\bin"
+        - "C:\\Users\\ghoar\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\Llvm\\x64\\bin"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "E:/Tools/EMBRA/EMBER_05/install"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
+        - "E:/Tools/EMBRA/EMBER_05/install"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:40 (find_package)"
+    name: "embree"
+    configs:
+      -
+        filename: "embreeConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "embree-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "4"
+      version_complete: "4"
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "embree"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "E:/Tools/EMBRA/EMBER_05/build/CMakeFiles/pkgRedirects/embreeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Tools/EMBRA/EMBER_05/build/CMakeFiles/pkgRedirects/embree-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/embreeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/embree-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/vcpackages/embreeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/vcpackages/embree-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TestWindow/embreeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TestWindow/embree-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/embreeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/embree-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/Roslyn/embreeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/Roslyn/embree-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/embreeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/embree-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/HTML Help Workshop/embreeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/HTML Help Workshop/embree-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/Team Tools/DiagnosticsHub/Collector/embreeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/Team Tools/DiagnosticsHub/Collector/embree-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/embreeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/embree-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Windows Kits/10/bin/10.0.26100.0/x64/embreeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Windows Kits/10/bin/10.0.26100.0/x64/embree-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Windows Kits/10/bin/x64/embreeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Windows Kits/10/bin/x64/embree-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/embreeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/embree-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/embreeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/embree-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/embreeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/embree-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/Tools/embreeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/Tools/embree-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Python311/Scripts/embreeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Python311/Scripts/embree-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Python311/embreeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Python311/embree-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/embreeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/embree-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/embreeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/embree-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/embreeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/embree-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/embreeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/embree-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/embreeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/embree-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/embreeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/embree-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/embreeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/embree-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/chocolatey/embreeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/chocolatey/embree-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/embreeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/embree-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/embreeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/embree-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/PowerShell/7/embreeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/PowerShell/7/embree-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/embreeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/embree-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Docker/Docker/resources/embreeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Docker/Docker/resources/embree-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Tailscale/embreeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Tailscale/embree-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files (x86)/IncrediBuild/embreeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files (x86)/IncrediBuild/embree-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Windows Kits/10/Windows Performance Toolkit/embreeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Windows Kits/10/Windows Performance Toolkit/embree-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ghoar/AppData/Local/Microsoft/WindowsApps/embreeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ghoar/AppData/Local/Microsoft/WindowsApps/embree-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/ffmpeg/embreeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/ffmpeg/embree-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ghoar/AppData/Local/Programs/Microsoft VS Code/embreeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ghoar/AppData/Local/Programs/Microsoft VS Code/embree-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/Llvm/x64/embreeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/Llvm/x64/embree-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/embreeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/embree-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/embreeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/embree-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/embreeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/embree-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/vcpkg/embreeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Program Files/Microsoft Visual Studio/18/Insiders/VC/vcpkg/embree-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/embreeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/embree-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/embreeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/embree-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\VC\\VCPackages"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64\\"
+        - "C:\\Program Files (x86)\\HTML Help Workshop"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Team Tools\\DiagnosticsHub\\Collector"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "E:\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "E:\\Windows Kits\\10\\bin\\\\x64"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\Tools\\"
+        - "C:\\Python311\\Scripts\\"
+        - "C:\\Python311\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Tailscale\\"
+        - "E:\\Program Files (x86)\\IncrediBuild"
+        - "E:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\ghoar\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\ffmpeg\\bin"
+        - "C:\\Users\\ghoar\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\Llvm\\x64\\bin"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "E:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "E:/Tools/EMBRA/EMBER_05/install"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "E:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
+        - "E:/Tools/EMBRA/EMBER_05/install"
+...

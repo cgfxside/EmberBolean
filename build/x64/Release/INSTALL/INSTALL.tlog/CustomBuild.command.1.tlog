@@ -1,0 +1,10 @@
+^E:\TOOLS\EMBRA\EMBER_05\BUILD\CMAKEFILES\64651DF41AE1A82EC1F8604D8D196CFC\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

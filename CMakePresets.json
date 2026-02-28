@@ -1,0 +1,212 @@
+{
+    "version": 8,
+    "cmakeMinimumRequired": {
+        "major": 3,
+        "minor": 28,
+        "patch": 0
+    },
+    "configurePresets": [
+        {
+            "name": "windows-base",
+            "hidden": true,
+            "generator": "Visual Studio 17 2022",
+            "architecture": {
+                "value": "x64",
+                "strategy": "set"
+            },
+            "toolset": {
+                "value": "host=x64",
+                "strategy": "set"
+            },
+            "binaryDir": "${sourceDir}/build/${presetName}",
+            "installDir": "${sourceDir}/install/${presetName}",
+            "condition": {
+                "type": "equals",
+                "lhs": "${hostSystemName}",
+                "rhs": "Windows"
+            },
+            "cacheVariables": {
+                "CMAKE_CXX_STANDARD": "17",
+                "CMAKE_CXX_STANDARD_REQUIRED": "ON",
+                "CMAKE_CXX_EXTENSIONS": "OFF"
+            },
+            "vendor": {
+                "microsoft.com/VisualStudioSettings/CMake/1.0": {
+                    "hostOS": ["Windows"]
+                }
+            }
+        },
+        {
+            "name": "windows-release",
+            "displayName": "Windows Release (VS 2022)",
+            "description": "Release build with optimizations for Windows using Visual Studio 2022",
+            "inherits": "windows-base",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Release",
+                "EMBER_BUILD_TESTS": "ON",
+                "EMBER_ENABLE_CUDA": "OFF",
+                "EMBER_USE_BOOST_MULTIPRECISION": "OFF"
+            },
+            "environment": {
+                "HFS": "$env{HFS}",
+                "VCPKG_ROOT": "$env{VCPKG_ROOT}"
+            }
+        },
+        {
+            "name": "windows-debug",
+            "displayName": "Windows Debug (VS 2022)",
+            "description": "Debug build with symbols and sanitizers for Windows using Visual Studio 2022",
+            "inherits": "windows-base",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Debug",
+                "EMBER_BUILD_TESTS": "ON",
+                "EMBER_ENABLE_CUDA": "OFF",
+                "EMBER_USE_BOOST_MULTIPRECISION": "OFF"
+            },
+            "environment": {
+                "HFS": "$env{HFS}",
+                "VCPKG_ROOT": "$env{VCPKG_ROOT}"
+            }
+        },
+        {
+            "name": "windows-release-cuda",
+            "displayName": "Windows Release with CUDA (VS 2022)",
+            "description": "Release build with CUDA broad-phase acceleration",
+            "inherits": "windows-release",
+            "cacheVariables": {
+                "EMBER_ENABLE_CUDA": "ON"
+            }
+        },
+        {
+            "name": "windows-release-boost",
+            "displayName": "Windows Release with Boost MP (VS 2022)",
+            "description": "Release build with boost::multiprecision for exact arithmetic",
+            "inherits": "windows-release",
+            "cacheVariables": {
+                "EMBER_USE_BOOST_MULTIPRECISION": "ON"
+            }
+        }
+    ],
+    "buildPresets": [
+        {
+            "name": "windows-release",
+            "displayName": "Build Release",
+            "description": "Build the Release configuration",
+            "configurePreset": "windows-release",
+            "configuration": "Release",
+            "jobs": 0,
+            "verbose": false
+        },
+        {
+            "name": "windows-debug",
+            "displayName": "Build Debug",
+            "description": "Build the Debug configuration",
+            "configurePreset": "windows-debug",
+            "configuration": "Debug",
+            "jobs": 0,
+            "verbose": false
+        },
+        {
+            "name": "windows-release-cuda",
+            "displayName": "Build Release (CUDA)",
+            "description": "Build the Release configuration with CUDA support",
+            "configurePreset": "windows-release-cuda",
+            "configuration": "Release",
+            "jobs": 0,
+            "verbose": false
+        },
+        {
+            "name": "windows-release-boost",
+            "displayName": "Build Release (Boost MP)",
+            "description": "Build the Release configuration with Boost multiprecision",
+            "configurePreset": "windows-release-boost",
+            "configuration": "Release",
+            "jobs": 0,
+            "verbose": false
+        }
+    ],
+    "testPresets": [
+        {
+            "name": "windows-release-test",
+            "displayName": "Test Release",
+            "description": "Run tests on Release build",
+            "configurePreset": "windows-release",
+            "configuration": "Release",
+            "output": {
+                "outputOnFailure": true
+            },
+            "execution": {
+                "noTestsAction": "error",
+                "stopOnFailure": false
+            }
+        },
+        {
+            "name": "windows-debug-test",
+            "displayName": "Test Debug",
+            "description": "Run tests on Debug build",
+            "configurePreset": "windows-debug",
+            "configuration": "Debug",
+            "output": {
+                "outputOnFailure": true
+            },
+            "execution": {
+                "noTestsAction": "error",
+                "stopOnFailure": false
+            }
+        }
+    ],
+    "packagePresets": [
+        {
+            "name": "windows-release-package",
+            "displayName": "Package Release",
+            "description": "Create installation package for Release build",
+            "configurePreset": "windows-release",
+            "configurations": ["Release"],
+            "generators": ["ZIP"]
+        }
+    ],
+    "workflowPresets": [
+        {
+            "name": "windows-release-workflow",
+            "displayName": "Full Release Workflow",
+            "description": "Configure, build, test, and package the Release configuration",
+            "steps": [
+                {
+                    "type": "configure",
+                    "name": "windows-release"
+                },
+                {
+                    "type": "build",
+                    "name": "windows-release"
+                },
+                {
+                    "type": "test",
+                    "name": "windows-release-test"
+                },
+                {
+                    "type": "package",
+                    "name": "windows-release-package"
+                }
+            ]
+        },
+        {
+            "name": "windows-debug-workflow",
+            "displayName": "Full Debug Workflow",
+            "description": "Configure, build, and test the Debug configuration",
+            "steps": [
+                {
+                    "type": "configure",
+                    "name": "windows-debug"
+                },
+                {
+                    "type": "build",
+                    "name": "windows-debug"
+                },
+                {
+                    "type": "test",
+                    "name": "windows-debug-test"
+                }
+            ]
+        }
+    ]
+}
