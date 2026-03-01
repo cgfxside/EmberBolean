@@ -1,7 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"E:/Tools/EMBER/build/_deps/manifold-subbuild/cmake_install.cmake"
-	],
-	"Parallel" : false
-}
