@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\Tools\EMBER\build\_deps\tbb-subbuild\CMakeFiles\1711620f9dbf2c70680bf1563bef2420\tbb-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Tools\EMBER\build\_deps\tbb-subbuild\CMakeFiles\1711620f9dbf2c70680bf1563bef2420\tbb-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Tools\EMBER\build\_deps\tbb-subbuild\CMakeFiles\1711620f9dbf2c70680bf1563bef2420\tbb-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Tools\EMBER\build\_deps\tbb-subbuild\CMakeFiles\1711620f9dbf2c70680bf1563bef2420\tbb-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Tools\EMBER\build\_deps\tbb-subbuild\CMakeFiles\1711620f9dbf2c70680bf1563bef2420\tbb-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Tools\EMBER\build\_deps\tbb-subbuild\CMakeFiles\1711620f9dbf2c70680bf1563bef2420\tbb-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Tools\EMBER\build\_deps\tbb-subbuild\CMakeFiles\1711620f9dbf2c70680bf1563bef2420\tbb-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Tools\EMBER\build\_deps\tbb-subbuild\CMakeFiles\1711620f9dbf2c70680bf1563bef2420\tbb-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Tools\EMBER\build\_deps\tbb-subbuild\CMakeFiles\f8ad2f1763e5af8739f221a1b17cb128\tbb-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Tools\EMBER\build\_deps\tbb-subbuild\CMakeFiles\0415734d74a9318698c229f93228cbe6\tbb-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Tools\EMBER\build\_deps\tbb-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\Tools\EMBER\build\_deps\tbb-subbuild\CMakeFiles\tbb-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{88871B0E-957E-3F7E-BEFC-100294AF386F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

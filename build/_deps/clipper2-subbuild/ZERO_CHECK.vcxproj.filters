@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\Tools\EMBER\build\_deps\clipper2-subbuild\CMakeFiles\fe7d7b6cc3735519d9d63cb521c202bc\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FD3A6EAB-AF16-3D3F-A49A-BDE3DDCE2010}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

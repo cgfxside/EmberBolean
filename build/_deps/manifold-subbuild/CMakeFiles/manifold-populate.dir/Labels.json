@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "E:/Tools/EMBER/build/_deps/manifold-subbuild/CMakeFiles/manifold-populate"
+		},
+		{
+			"file" : "E:/Tools/EMBER/build/_deps/manifold-subbuild/CMakeFiles/4a00b63a967f57e9bf61ae316ae91cbe/manifold-populate.rule"
+		},
+		{
+			"file" : "E:/Tools/EMBER/build/_deps/manifold-subbuild/CMakeFiles/76385a23cf771bcca890c240321decbc/manifold-populate-complete.rule"
+		},
+		{
+			"file" : "E:/Tools/EMBER/build/_deps/manifold-subbuild/CMakeFiles/6005e8c708e1c9b0af3b815196ca21df/manifold-populate-build.rule"
+		},
+		{
+			"file" : "E:/Tools/EMBER/build/_deps/manifold-subbuild/CMakeFiles/6005e8c708e1c9b0af3b815196ca21df/manifold-populate-configure.rule"
+		},
+		{
+			"file" : "E:/Tools/EMBER/build/_deps/manifold-subbuild/CMakeFiles/6005e8c708e1c9b0af3b815196ca21df/manifold-populate-download.rule"
+		},
+		{
+			"file" : "E:/Tools/EMBER/build/_deps/manifold-subbuild/CMakeFiles/6005e8c708e1c9b0af3b815196ca21df/manifold-populate-install.rule"
+		},
+		{
+			"file" : "E:/Tools/EMBER/build/_deps/manifold-subbuild/CMakeFiles/6005e8c708e1c9b0af3b815196ca21df/manifold-populate-mkdir.rule"
+		},
+		{
+			"file" : "E:/Tools/EMBER/build/_deps/manifold-subbuild/CMakeFiles/6005e8c708e1c9b0af3b815196ca21df/manifold-populate-patch.rule"
+		},
+		{
+			"file" : "E:/Tools/EMBER/build/_deps/manifold-subbuild/CMakeFiles/6005e8c708e1c9b0af3b815196ca21df/manifold-populate-test.rule"
+		},
+		{
+			"file" : "E:/Tools/EMBER/build/_deps/manifold-subbuild/CMakeFiles/6005e8c708e1c9b0af3b815196ca21df/manifold-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"manifold-populate"
+		],
+		"name" : "manifold-populate"
+	}
+}

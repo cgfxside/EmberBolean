@@ -1,38 +1,24 @@
-// ============================================================================
-// EmberPlugin.cpp
-// DSO Entry Point for EMBER Boolean Engine HDK Integration
-// ============================================================================
-
-#include <UT/UT_DSOVersion.h>
-#include <OP/OP_OperatorTable.h>
-#include <OP/OP_Operator.h>
-#include <SOP/SOP_Node.h>
+/**
+ * @file EmberPlugin.cpp
+ * @brief DSO entry point for EMBER Boolean Houdini plugin
+ */
 
 #include "SOP_EmberBoolean.h"
 
-#define EMBER_PLUGIN_NAME    "ember_boolean"
-#define EMBER_PLUGIN_LABEL   "Ember Boolean"
+#include <UT/UT_DSOVersion.h>
+#include <OP/OP_Operator.h>
+#include <OP/OP_OperatorTable.h>
 
-/// @brief Register the EMBER Boolean SOP with Houdini
 void newSopOperator(OP_OperatorTable* table)
 {
-    if (!table) return;
-
-    OP_Operator* op = new OP_Operator(
-        EMBER_PLUGIN_NAME,
-        EMBER_PLUGIN_LABEL,
-        SOP_EmberBoolean::myConstructor,
-        SOP_EmberBoolean::buildTemplates(),
-        2,          // min inputs
-        2,          // max inputs
-        nullptr,    // local variables
-        0           // flags (not a generator)
-    );
-
-    if (op) {
-        // FIX: setOpVersion() and setOpDescription() do not exist in H20/H21.
-        // Operator metadata is expressed only through the constructor arguments
-        // and the PRM_Template list.
-        table->addOperator(op);
-    }
+    table->addOperator(new OP_Operator(
+        "ember_boolean",                        // internal name
+        "EMBER Boolean",                        // UI label
+        SOP_EmberBoolean::myConstructor,        // constructor
+        SOP_EmberBoolean::buildTemplates(),     // parameters (public accessor)
+        2,                                      // min inputs
+        2,                                      // max inputs
+        nullptr,                                // variables
+        OP_FLAG_GENERATOR                       // flags
+    ));
 }

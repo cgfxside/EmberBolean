@@ -1,0 +1,12 @@
+prefix=E:/Tools/EMBER/install
+exec_prefix=${prefix}
+libdir=E:/Tools/EMBER/install/lib
+includedir=E:/Tools/EMBER/install/include
+
+Name: manifold
+Description: Geometry library for topological robustness
+Version: 3.0.1
+URL: https://github.com/elalish/manifold
+Requires-private: tbb Clipper2
+Libs: -L${libdir} -lmanifold
+Cflags: -I${includedir} -std=c++17

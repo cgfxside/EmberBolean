@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\Tools\EMBER\build\_deps\manifold-src\src\boolean3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Tools\EMBER\build\_deps\manifold-src\src\boolean_result.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Tools\EMBER\build\_deps\manifold-src\src\constructors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Tools\EMBER\build\_deps\manifold-src\src\csg_tree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Tools\EMBER\build\_deps\manifold-src\src\edge_op.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Tools\EMBER\build\_deps\manifold-src\src\face_op.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Tools\EMBER\build\_deps\manifold-src\src\impl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Tools\EMBER\build\_deps\manifold-src\src\manifold.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Tools\EMBER\build\_deps\manifold-src\src\polygon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Tools\EMBER\build\_deps\manifold-src\src\properties.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Tools\EMBER\build\_deps\manifold-src\src\quickhull.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Tools\EMBER\build\_deps\manifold-src\src\sdf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Tools\EMBER\build\_deps\manifold-src\src\smoothing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Tools\EMBER\build\_deps\manifold-src\src\sort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Tools\EMBER\build\_deps\manifold-src\src\subdivision.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Tools\EMBER\build\_deps\manifold-src\src\cross_section\cross_section.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\Tools\EMBER\build\_deps\manifold-src\src\boolean3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Tools\EMBER\build\_deps\manifold-src\src\collider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Tools\EMBER\build\_deps\manifold-src\src\csg_tree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Tools\EMBER\build\_deps\manifold-src\src\hashtable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Tools\EMBER\build\_deps\manifold-src\src\impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Tools\EMBER\build\_deps\manifold-src\src\iters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Tools\EMBER\build\_deps\manifold-src\src\mesh_fixes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Tools\EMBER\build\_deps\manifold-src\src\parallel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Tools\EMBER\build\_deps\manifold-src\src\quickhull.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Tools\EMBER\build\_deps\manifold-src\src\shared.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Tools\EMBER\build\_deps\manifold-src\src\sparse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Tools\EMBER\build\_deps\manifold-src\src\svd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Tools\EMBER\build\_deps\manifold-src\src\tri_dist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Tools\EMBER\build\_deps\manifold-src\src\utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Tools\EMBER\build\_deps\manifold-src\src\vec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Tools\EMBER\build\_deps\manifold-src\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DCD362C3-ECD6-3CE1-9ACA-8DAABF9DB1C9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{66046287-454B-3F0F-8FD9-4FAF6A2BDDD5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

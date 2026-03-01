@@ -1,0 +1,150 @@
+^E:\TOOLS\EMBER\BUILD\_DEPS\MANIFOLD-SUBBUILD\CMAKEFILES\6005E8C708E1C9B0AF3B815196CA21DF\MANIFOLD-POPULATE-MKDIR.RULE
+setlocal
+"E:\Program Files\Microsoft Visual Studio\18\Insiders\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P E:/Tools/EMBER/build/_deps/manifold-subbuild/manifold-populate-prefix/tmp/manifold-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"E:\Program Files\Microsoft Visual Studio\18\Insiders\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch E:/Tools/EMBER/build/_deps/manifold-subbuild/manifold-populate-prefix/src/manifold-populate-stamp/Debug/manifold-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\TOOLS\EMBER\BUILD\_DEPS\MANIFOLD-SUBBUILD\CMAKEFILES\6005E8C708E1C9B0AF3B815196CA21DF\MANIFOLD-POPULATE-DOWNLOAD.RULE
+setlocal
+cd E:\Tools\EMBER\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"E:\Program Files\Microsoft Visual Studio\18\Insiders\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P E:/Tools/EMBER/build/_deps/manifold-subbuild/manifold-populate-prefix/tmp/manifold-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"E:\Program Files\Microsoft Visual Studio\18\Insiders\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch E:/Tools/EMBER/build/_deps/manifold-subbuild/manifold-populate-prefix/src/manifold-populate-stamp/Debug/manifold-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\TOOLS\EMBER\BUILD\_DEPS\MANIFOLD-SUBBUILD\CMAKEFILES\6005E8C708E1C9B0AF3B815196CA21DF\MANIFOLD-POPULATE-UPDATE.RULE
+setlocal
+cd E:\Tools\EMBER\build\_deps\manifold-src
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"E:\Program Files\Microsoft Visual Studio\18\Insiders\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P E:/Tools/EMBER/build/_deps/manifold-subbuild/manifold-populate-prefix/tmp/manifold-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\TOOLS\EMBER\BUILD\_DEPS\MANIFOLD-SUBBUILD\CMAKEFILES\6005E8C708E1C9B0AF3B815196CA21DF\MANIFOLD-POPULATE-PATCH.RULE
+setlocal
+"E:\Program Files\Microsoft Visual Studio\18\Insiders\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"E:\Program Files\Microsoft Visual Studio\18\Insiders\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch E:/Tools/EMBER/build/_deps/manifold-subbuild/manifold-populate-prefix/src/manifold-populate-stamp/Debug/manifold-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\TOOLS\EMBER\BUILD\_DEPS\MANIFOLD-SUBBUILD\CMAKEFILES\6005E8C708E1C9B0AF3B815196CA21DF\MANIFOLD-POPULATE-CONFIGURE.RULE
+setlocal
+cd E:\Tools\EMBER\build\_deps\manifold-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"E:\Program Files\Microsoft Visual Studio\18\Insiders\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"E:\Program Files\Microsoft Visual Studio\18\Insiders\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch E:/Tools/EMBER/build/_deps/manifold-subbuild/manifold-populate-prefix/src/manifold-populate-stamp/Debug/manifold-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\TOOLS\EMBER\BUILD\_DEPS\MANIFOLD-SUBBUILD\CMAKEFILES\6005E8C708E1C9B0AF3B815196CA21DF\MANIFOLD-POPULATE-BUILD.RULE
+setlocal
+cd E:\Tools\EMBER\build\_deps\manifold-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"E:\Program Files\Microsoft Visual Studio\18\Insiders\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"E:\Program Files\Microsoft Visual Studio\18\Insiders\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch E:/Tools/EMBER/build/_deps/manifold-subbuild/manifold-populate-prefix/src/manifold-populate-stamp/Debug/manifold-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\TOOLS\EMBER\BUILD\_DEPS\MANIFOLD-SUBBUILD\CMAKEFILES\6005E8C708E1C9B0AF3B815196CA21DF\MANIFOLD-POPULATE-INSTALL.RULE
+setlocal
+cd E:\Tools\EMBER\build\_deps\manifold-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"E:\Program Files\Microsoft Visual Studio\18\Insiders\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"E:\Program Files\Microsoft Visual Studio\18\Insiders\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch E:/Tools/EMBER/build/_deps/manifold-subbuild/manifold-populate-prefix/src/manifold-populate-stamp/Debug/manifold-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\TOOLS\EMBER\BUILD\_DEPS\MANIFOLD-SUBBUILD\CMAKEFILES\6005E8C708E1C9B0AF3B815196CA21DF\MANIFOLD-POPULATE-TEST.RULE
+setlocal
+cd E:\Tools\EMBER\build\_deps\manifold-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"E:\Program Files\Microsoft Visual Studio\18\Insiders\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"E:\Program Files\Microsoft Visual Studio\18\Insiders\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch E:/Tools/EMBER/build/_deps/manifold-subbuild/manifold-populate-prefix/src/manifold-populate-stamp/Debug/manifold-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\TOOLS\EMBER\BUILD\_DEPS\MANIFOLD-SUBBUILD\CMAKEFILES\76385A23CF771BCCA890C240321DECBC\MANIFOLD-POPULATE-COMPLETE.RULE
+setlocal
+"E:\Program Files\Microsoft Visual Studio\18\Insiders\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory E:/Tools/EMBER/build/_deps/manifold-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"E:\Program Files\Microsoft Visual Studio\18\Insiders\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch E:/Tools/EMBER/build/_deps/manifold-subbuild/CMakeFiles/Debug/manifold-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"E:\Program Files\Microsoft Visual Studio\18\Insiders\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch E:/Tools/EMBER/build/_deps/manifold-subbuild/manifold-populate-prefix/src/manifold-populate-stamp/Debug/manifold-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\TOOLS\EMBER\BUILD\_DEPS\MANIFOLD-SUBBUILD\CMAKEFILES\4A00B63A967F57E9BF61AE316AE91CBE\MANIFOLD-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\TOOLS\EMBER\BUILD\_DEPS\MANIFOLD-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"E:\Program Files\Microsoft Visual Studio\18\Insiders\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SE:/Tools/EMBER/build/_deps/manifold-subbuild -BE:/Tools/EMBER/build/_deps/manifold-subbuild --check-stamp-file E:/Tools/EMBER/build/_deps/manifold-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

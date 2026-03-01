@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\Tools\EMBER\build\CMakeFiles\b63ca3feee9c766a1208378e9e0d7eea\PACKAGE_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C4FF9C77-38FD-3FD1-B9F7-51A7AC0B61AD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

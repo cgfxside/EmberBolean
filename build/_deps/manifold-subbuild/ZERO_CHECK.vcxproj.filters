@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\Tools\EMBER\build\_deps\manifold-subbuild\CMakeFiles\4a00b63a967f57e9bf61ae316ae91cbe\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{AD8C0F18-2F69-30B5-8D27-9876577D914E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

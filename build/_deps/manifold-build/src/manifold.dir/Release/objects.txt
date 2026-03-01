@@ -1,0 +1,16 @@
+E:/Tools/EMBER/build/_deps/manifold-build/src/manifold.dir/Release/boolean3.obj
+E:/Tools/EMBER/build/_deps/manifold-build/src/manifold.dir/Release/boolean_result.obj
+E:/Tools/EMBER/build/_deps/manifold-build/src/manifold.dir/Release/constructors.obj
+E:/Tools/EMBER/build/_deps/manifold-build/src/manifold.dir/Release/csg_tree.obj
+E:/Tools/EMBER/build/_deps/manifold-build/src/manifold.dir/Release/edge_op.obj
+E:/Tools/EMBER/build/_deps/manifold-build/src/manifold.dir/Release/face_op.obj
+E:/Tools/EMBER/build/_deps/manifold-build/src/manifold.dir/Release/impl.obj
+E:/Tools/EMBER/build/_deps/manifold-build/src/manifold.dir/Release/manifold.obj
+E:/Tools/EMBER/build/_deps/manifold-build/src/manifold.dir/Release/polygon.obj
+E:/Tools/EMBER/build/_deps/manifold-build/src/manifold.dir/Release/properties.obj
+E:/Tools/EMBER/build/_deps/manifold-build/src/manifold.dir/Release/quickhull.obj
+E:/Tools/EMBER/build/_deps/manifold-build/src/manifold.dir/Release/sdf.obj
+E:/Tools/EMBER/build/_deps/manifold-build/src/manifold.dir/Release/smoothing.obj
+E:/Tools/EMBER/build/_deps/manifold-build/src/manifold.dir/Release/sort.obj
+E:/Tools/EMBER/build/_deps/manifold-build/src/manifold.dir/Release/subdivision.obj
+E:/Tools/EMBER/build/_deps/manifold-build/src/manifold.dir/Release/cross_section.obj

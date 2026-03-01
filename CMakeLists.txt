@@ -21,6 +21,40 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 option(EMBER_BUILD_TESTS "Build unit tests" ON)
 option(EMBER_ENABLE_CUDA "Enable CUDA broad-phase" OFF)
 option(EMBER_USE_BOOST_MULTIPRECISION "Use boost::multiprecision" OFF)
+option(EMBER_HAS_MANIFOLD "Build with Manifold library backend" ON)
+
+set(BUILD_SHARED_LIBS OFF CACHE BOOL "" FORCE)
+
+if(EMBER_HAS_MANIFOLD)
+    message(STATUS "EMBER: Manifold backend ENABLED — fetching library...")
+
+    include(FetchContent)
+    FetchContent_Declare(
+        manifold
+        GIT_REPOSITORY https://github.com/elalish/manifold.git
+        GIT_TAG        v3.0.1
+        GIT_SHALLOW    TRUE
+    )
+
+    # Disable Manifold extras we don't need
+    set(MANIFOLD_TEST   OFF CACHE BOOL "" FORCE)
+    set(MANIFOLD_PYBIND OFF CACHE BOOL "" FORCE)
+    set(MANIFOLD_CBIND  OFF CACHE BOOL "" FORCE)
+    set(MANIFOLD_JSBIND OFF CACHE BOOL "" FORCE)
+    set(MANIFOLD_EXPORT OFF CACHE BOOL "" FORCE)
+    set(MANIFOLD_DEBUG  OFF CACHE BOOL "" FORCE)
+
+    # Serial backend = no TBB dependency from Manifold
+    if(NOT DEFINED MANIFOLD_PAR)
+        set(MANIFOLD_PAR "NONE" CACHE STRING "" FORCE)
+    endif()
+
+# Force Manifold to build as static lib (its CMake overrides the global setting)
+    set(BUILD_SHARED_LIBS_SAVED ${BUILD_SHARED_LIBS})
+    set(BUILD_SHARED_LIBS OFF)
+    FetchContent_MakeAvailable(manifold)
+    set(BUILD_SHARED_LIBS ${BUILD_SHARED_LIBS_SAVED})
+endif()
 
 # Find Houdini HDK
 # Supports Houdini 20.x and 21.x
@@ -78,6 +112,10 @@ set(EMBER_BACKEND_SOURCES
     backend/CherchiBackend_stub.cpp
 )
 
+if(EMBER_HAS_MANIFOLD)
+    list(APPEND EMBER_BACKEND_SOURCES backend/ManifoldBackend.cpp)
+endif()
+
 set(EMBER_SOP_SOURCES
     src/SOPParameters.h
     src/SOPParameters.cpp
@@ -100,6 +138,13 @@ target_include_directories(ember_core PUBLIC
 
 if(TBB_FOUND)
     target_link_libraries(ember_core PUBLIC TBB::tbb)
+endif()
+
+target_compile_definitions(ember_core PUBLIC
+    $<$<BOOL:${EMBER_HAS_MANIFOLD}>:EMBER_HAS_MANIFOLD>
+)
+if(EMBER_HAS_MANIFOLD)
+    target_link_libraries(ember_core PUBLIC manifold)
 endif()
 
 if(EMBER_USE_BOOST_MULTIPRECISION)
@@ -133,6 +178,10 @@ houdini_configure_target(SOP_EmberBoolean)
 install(TARGETS SOP_EmberBoolean
     DESTINATION "${HOUDINI_DSO_DIR}/sop"
 )
+
+if(EMBER_HAS_MANIFOLD)
+    install(FILES $<TARGET_FILE:manifold> DESTINATION ${CMAKE_INSTALL_PREFIX}/dso)
+endif()
 
 # Tests
 if(EMBER_BUILD_TESTS)

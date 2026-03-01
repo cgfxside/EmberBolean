@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\Tools\EMBER\build\_deps\clipper2-src\CPP\Clipper2Lib\src\clipper.engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Tools\EMBER\build\_deps\clipper2-src\CPP\Clipper2Lib\src\clipper.offset.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Tools\EMBER\build\_deps\clipper2-src\CPP\Clipper2Lib\src\clipper.rectclip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\Tools\EMBER\build\_deps\clipper2-src\CPP\Clipper2Lib\include\clipper2\clipper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Tools\EMBER\build\_deps\clipper2-src\CPP\Clipper2Lib\include\clipper2\clipper.version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Tools\EMBER\build\_deps\clipper2-src\CPP\Clipper2Lib\include\clipper2\clipper.core.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Tools\EMBER\build\_deps\clipper2-src\CPP\Clipper2Lib\include\clipper2\clipper.engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Tools\EMBER\build\_deps\clipper2-src\CPP\Clipper2Lib\include\clipper2\clipper.export.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Tools\EMBER\build\_deps\clipper2-src\CPP\Clipper2Lib\include\clipper2\clipper.minkowski.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Tools\EMBER\build\_deps\clipper2-src\CPP\Clipper2Lib\include\clipper2\clipper.offset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Tools\EMBER\build\_deps\clipper2-src\CPP\Clipper2Lib\include\clipper2\clipper.rectclip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Tools\EMBER\build\_deps\clipper2-src\CPP\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DCD362C3-ECD6-3CE1-9ACA-8DAABF9DB1C9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{66046287-454B-3F0F-8FD9-4FAF6A2BDDD5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

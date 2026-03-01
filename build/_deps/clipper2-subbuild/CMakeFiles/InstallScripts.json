@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"E:/Tools/EMBER/build/_deps/clipper2-subbuild/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

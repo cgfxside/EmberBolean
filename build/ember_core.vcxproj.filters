@@ -13,6 +13,9 @@
     <ClCompile Include="E:\Tools\EMBER\backend\CherchiBackend_stub.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="E:\Tools\EMBER\backend\ManifoldBackend.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="E:\Tools\EMBER\ember\IntegerTypes.h">
